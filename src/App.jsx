@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-    <nav className={styles.navbar}>
+    <nav className='{styles.navbar}'>
 
     </nav>
     </>
