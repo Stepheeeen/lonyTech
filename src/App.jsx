@@ -1,10 +1,12 @@
-import './App.css'
+import styles from './App.css'
 
 function App() {
 
   return (
     <>
-      hii
+    <nav className={styles.navbar}>
+
+    </nav>
     </>
   )
 }
