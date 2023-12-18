@@ -1,15 +1,15 @@
 import React from 'react'
-import Styles from './App.css'
+import './App.css'
 
 function App() {
 
   return (
     <>
-    <nav className={Styles.navbar}>
-
+    <nav className='navbar'>
+    hii
     </nav>
     </>
   )
 }
 
-export default App;
+export default App
