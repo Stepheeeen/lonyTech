@@ -1,13 +1,12 @@
 import React from 'react'
-import './App.css'
+import Styles from './App.css'
 
 function App() {
 
   return (
     <>
-    hii
-    <nav className='navbar'>
-hii
+    <nav className={Styles.navbar}>
+
     </nav>
     </>
   )
