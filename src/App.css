@@ -10,4 +10,13 @@
   align-items: center;
   width: 100%;
   padding: 15px;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.navbar ul{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
