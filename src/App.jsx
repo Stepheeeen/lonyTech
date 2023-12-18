@@ -6,7 +6,7 @@ function App() {
   return (
     <>
     <nav className='navbar'>
-    hii
+    
     </nav>
     </>
   )
