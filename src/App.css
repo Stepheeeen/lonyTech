@@ -2,9 +2,10 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Figtree', sans-serif;
 }
 
-a{
+a {
   text-decoration: none !important;
 }
 
@@ -32,22 +33,22 @@ a{
   list-style: none;
   margin-left: 10px;
 }
+
 .navbar ul li a {
   background: #333333;
-  /* //styleName: Body Medium - Roboto 14/20 . +0.25; */
-font-family: Figtree;
-font-size: 14px;
-font-weight: 400;
-line-height: 20px;
-letter-spacing: 0.25px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0.25px;
 
 }
-.navbar .btn{
+
+.navbar .btn {
   padding: 12px 20px;
   border: none;
   outline: none;
-  background:#8B4BCC;
+  background: #8B4BCC;
   color: #fff;
   border-radius: 5px;
-  
+
 }
