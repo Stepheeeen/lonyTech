@@ -30,7 +30,8 @@ function App() {
           <img src={slide} alt="" className='slide'/>
         </Marquee>
 
-        <Card />
+                    
+        <Card title='We are a trailblazing fintech company.' text='Leveraging experienced software engineers and cutting-edge infrastructure.' />
       </main>
     </>
   )
