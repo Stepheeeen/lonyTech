@@ -4,8 +4,8 @@ import heroImg from '../assets/hero.png'
 function Hero() {
     return(
         <div className='hero'>
-            <div>
-            <h1>
+            <div className='description'>
+            <h1 className='title'>
                 transforming <span className='span-1'>finance</span> 
                 <br />
                 with <span className='span-2'>innovation</span> 
