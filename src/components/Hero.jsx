@@ -6,9 +6,9 @@ function Hero() {
         <div className='hero'>
             <div>
             <h1>
-                transforming finance
+                transforming <span className='span-1'>finance</span> 
                 <br />
-                with innovation
+                with <span className='span-2'>innovation</span> 
             </h1>
 
             <p>
