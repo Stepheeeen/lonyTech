@@ -12,7 +12,7 @@ function Hero() {
             </h1>
 
             <p>
-
+            Lonytech is a leading financial technology company dedicated to revolutionizing digital banking and payment solutions.
             </p>
             </div>
 
