@@ -1,5 +1,6 @@
 import '../App.css'
 import heroImg from '../assets/hero.png'
+import Button from '../components/button/Button.jsx'
 
 function Hero() {
     return(
@@ -15,7 +16,7 @@ function Hero() {
             Lonytech is a leading financial technology company dedicated to revolutionizing digital banking and payment solutions.
             </p>
 
-                        
+                <Button message='Learn More' />
             </div>
 
             <img src={heroImg} alt="image" className='hero-img'/>
