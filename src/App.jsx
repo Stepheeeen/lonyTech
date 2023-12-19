@@ -1,11 +1,12 @@
 import './App.css'
+import logo from './assets/logo.png'
 
 function App() {
 
   return (
     <>
     <nav className='navbar'>
-    <img src='' alt='logo' className='logo' />
+    <img src={logo} alt='logo' className='logo' />
 
     <ul className='nav-links'>
       <li>Home</li>
