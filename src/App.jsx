@@ -4,6 +4,7 @@ import slide from './assets/slide.jpg'
 import Hero from './components/Hero.jsx'
 import Button from './components/button/Button.jsx'
 import Marquee from 'react-fast-marquee'
+import Card from './components/card/Card.jsx'
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
           <img src={slide} alt="" className='slide'/>
         </Marquee>
 
-
+        <Card />
       </main>
     </>
   )
