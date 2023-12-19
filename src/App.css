@@ -73,7 +73,12 @@ main{
 }
 
 .hero .description .title{
-  
+  /* font-family: Manrope; */
+font-size: 64px;
+font-weight: 800;
+line-height: 72px;
+letter-spacing: 0px;
+text-align: left;
 }
 
 .hero .description .title .span-1{
