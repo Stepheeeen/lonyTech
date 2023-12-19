@@ -2,7 +2,7 @@ import '../App.css'
 
 function Hero() {
     return(
-        <div>
+        <div className='hero'>
 
         </div>
     )

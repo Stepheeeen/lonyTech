@@ -21,7 +21,11 @@ function App() {
     </button>
     </nav>
 
+    <main>
     <Hero />
+
+    
+    </main>
     </>
   )
 }
