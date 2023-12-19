@@ -9,10 +9,10 @@ function App() {
     <img src={logo} alt='logo' className='logo' />
 
     <ul className='nav-links'>
-      <li>Home</li>
-      <li>Product</li>
-      <li>About Us</li>
-      <li>Contact</li>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Product</a></li>
+      <li><a href="#">About Us</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
 
     <button className='btn' type='submit'>
