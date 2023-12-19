@@ -1,6 +1,6 @@
 import './App.css'
 import logo from './assets/logo.png'
-import slide from './assets/slide.png'
+import slide from './assets/slide.jpg'
 import Hero from './components/Hero.jsx'
 import Button from './components/button/Button.jsx'
 import Marquee from 'react-fast-marquee'
@@ -25,9 +25,9 @@ function App() {
       <main>
         <Hero />
 
-        <marquee behavior="" direction="">
-          <img src={slide} alt="" />
-        </marquee>
+        <Marquee>
+          <img src={slide} alt="" className='slide'/>
+        </Marquee>
 
 
       </main>

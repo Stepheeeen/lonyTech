@@ -97,3 +97,7 @@ margin-bottom: 20px;
 .hero .description .title .span-2{
   color: #1CC91C;
 }
+
+.slide {
+  width: 100%;
+}
