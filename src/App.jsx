@@ -15,7 +15,7 @@ function App() {
       <li>Contact</li>
     </ul>
 
-    <button className='btn' type='button'>
+    <button className='btn' type='submit'>
       Learn More
     </button>
     </nav>
