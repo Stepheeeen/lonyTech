@@ -13,7 +13,7 @@ function Service() {
                     </p>
 
                     <a href="#">
-                        Explore Paylony Mobile App <span></span>
+                        Explore Paylony Mobile App <span>icons</span>
                     </a>
                 </div>
             </div>
