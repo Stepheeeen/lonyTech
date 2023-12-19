@@ -39,10 +39,13 @@ a {
   font-weight: 400;
   line-height: 20px;
   letter-spacing: 0.25px;
-  font-size: 16px;
+  font-size: 17px;
 }
 
-
+.navbar ul li a:hover{
+  color: #8B4BCC;
+  transition: .2s ease;
+}
 
 .navbar .btn {
   padding: 12px 20px;
