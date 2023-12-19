@@ -9,11 +9,12 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 15px;
+  padding: 15px 23px;
   position: fixed;
   top: 0;
   left: 0;
   box-shadow: 0 0 5px 0 #4B4B4B;
+  height: 110px;
 }
 
 .navbar ul{
