@@ -28,3 +28,8 @@
   list-style: none;
   margin-left: 10px;
 }
+.navbar .btn{
+  padding: 8px 20px;
+  border: none;
+  outline: none;
+}
