@@ -58,4 +58,11 @@ a {
 
 main{
   margin-top: 130px;
+  width: 100%;
+}
+
+.hero{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
