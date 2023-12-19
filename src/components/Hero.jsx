@@ -4,7 +4,7 @@ import heroImg from '../assets/hero.png'
 function Hero() {
     return(
         <div className='hero'>
-            
+            <img src={heroImg} alt="image" />
         </div>
     )
 }
