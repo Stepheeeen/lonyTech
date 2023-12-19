@@ -1,6 +1,7 @@
 import './App.css'
 import logo from './assets/logo.png'
 import Hero from './components/Hero.jsx'
+import Button from './components/button/Button.jsx'
 
 function App() {
 
@@ -16,15 +17,13 @@ function App() {
       <li><a href="#">Contact</a></li>
     </ul>
 
-    <button className='btn' type='submit'>
-      Learn More
-    </button>
+
     </nav>
 
     <main>
     <Hero />
 
-    
+
     </main>
     </>
   )
