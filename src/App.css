@@ -72,6 +72,11 @@ main{
   width: 550px;
 }
 
+.hero .description{
+  width: 50%;
+  flex-wrap: wrap;
+}
+
 .hero .description .title{
   /* font-family: Manrope; */
 font-size: 64px;
