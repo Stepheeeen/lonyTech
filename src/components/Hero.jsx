@@ -11,9 +11,11 @@ function Hero() {
                 with <span className='span-2'>innovation</span> 
             </h1>
 
-            <p>
+            <p className='text'>
             Lonytech is a leading financial technology company dedicated to revolutionizing digital banking and payment solutions.
             </p>
+
+            
             </div>
 
             <img src={heroImg} alt="image" className='hero-img'/>
