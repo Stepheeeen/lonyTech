@@ -15,7 +15,7 @@ function Hero() {
             Lonytech is a leading financial technology company dedicated to revolutionizing digital banking and payment solutions.
             </p>
 
-            
+                        
             </div>
 
             <img src={heroImg} alt="image" className='hero-img'/>

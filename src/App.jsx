@@ -17,7 +17,7 @@ function App() {
       <li><a href="#">Contact</a></li>
     </ul>
 
-
+    <Button message='Learn More' />
     </nav>
 
     <main>
