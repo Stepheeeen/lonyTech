@@ -100,4 +100,39 @@ margin-bottom: 20px;
 
 .slide {
   width: 100%;
+  /* box-shadow: 0 0 15px -9px #4B4B4B; */
+}
+
+.light-card{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 150px;
+  margin: 30px 0;
+}
+
+.light-card .description{
+  width: 40%;
+  flex-wrap: wrap;
+}
+
+.light-card img{
+  width: 50%;
+}
+
+.light-card .description h1{
+font-size: 35px;
+font-weight: 700;
+line-height: 52px;
+text-align: left;
+margin-bottom: 10px;
+}
+
+.light-card .description p{
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+text-align: left;
+
 }
