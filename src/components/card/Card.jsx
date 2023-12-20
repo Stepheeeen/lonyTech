@@ -1,7 +1,9 @@
 import '../../App.css'
 import fintech from '../../assets/fintech.png'
+import { FaArrowRight } from "react-icons/fa6";
 
-function Card({title, text}) {
+
+function Card({title, text, visibility}) {
     return (
         <div className='light-card'>
             <div className='description'>
@@ -12,6 +14,10 @@ function Card({title, text}) {
                 <p>
                     {text}
                 </p>
+
+                <a href="#" className={visibility}>
+                    Explore Paylony Agent Banking<FaArrowRight className='icon'/>
+                    </a>
             </div>
 
             <img src={fintech} alt="" />

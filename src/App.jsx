@@ -1,6 +1,10 @@
 import './App.css'
 import logo from './assets/logo.png'
 import slide from './assets/slide.jpg'
+import individual from './assets/individuals.png'
+import businesses from './assets/businesses.png'
+import MFB from './assets/MFBs.png'
+import startup from './assets/startups.png'
 import Hero from './components/Hero.jsx'
 import Button from './components/button/Button.jsx'
 import Marquee from 'react-fast-marquee'
@@ -8,10 +12,8 @@ import Card from './components/card/Card.jsx'
 import Service from './components/Service.jsx'
 import CardItem from './components/card/CardItem.jsx'
 import CardItemAlt from './components/card/CardItemAlt.jsx'
-import individual from './assets/individuals.png'
-import businesses from './assets/businesses.png'
-import MFB from './assets/MFBs.png'
-import startup from './assets/startups.png'
+import ClientCard from './components/card/ClientCard.jsx'
+import Client from './components/Client.jsx'
 
 
 function App() {
@@ -39,7 +41,7 @@ function App() {
         </Marquee>
 
                     
-        <Card title='We are a trailblazing fintech company.' text='Leveraging experienced software engineers and cutting-edge infrastructure.' />
+        <Card title='We are a trailblazing fintech company.' text='Leveraging experienced software engineers and cutting-edge infrastructure.' visibility='none'/>
 
         <Service />
 
@@ -53,10 +55,22 @@ function App() {
             <CardItemAlt src={businesses} classTitle='black' title='Businesses' text="Empower your business with streamlined financial tools, optimizing payment processing and account management."/>
             <CardItem src={MFB} classTitle='purple' title='(MFBs)' text="Discover personalized financial solutions for your everyday needs, from seamless mobile banking to secure online transactions." />
             <CardItemAlt src={startup} classTitle='blue' title='Startups' text="Elevate your startup's growth with customized fintech solutions, streamlining operations for lasting financial stability."/>
-
-
           </div>
         </div>
+
+        <div className='client-cont'>
+          <ClientCard />
+
+          <h1>
+            What our Client says about us
+          </h1>
+
+          <Client />
+        </div>
+
+        <Card title='We are here for you!' text='Talk to us now and let’s build for you' />
+
+        
       </main>
     </>
   )
