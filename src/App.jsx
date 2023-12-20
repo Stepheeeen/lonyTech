@@ -5,6 +5,7 @@ import Hero from './components/Hero.jsx'
 import Button from './components/button/Button.jsx'
 import Marquee from 'react-fast-marquee'
 import Card from './components/card/Card.jsx'
+import Service from './components/Service.jsx'
 
 function App() {
 
@@ -32,6 +33,16 @@ function App() {
 
                     
         <Card title='We are a trailblazing fintech company.' text='Leveraging experienced software engineers and cutting-edge infrastructure.' />
+
+        <Service />
+
+        <div className='advert-card'>
+          <h1>
+          Enhanced Financial Access for <br /> Diverse Needs
+          </h1>
+
+          <div className='container'></div>
+        </div>
       </main>
     </>
   )

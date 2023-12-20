@@ -57,7 +57,7 @@ a {
 }
 
 main{
-  margin-top: 130px;
+  margin-top: 110px;
   width: 100%;
   /* background: #E6F0FF; */
 }
@@ -67,6 +67,8 @@ main{
   justify-content: space-between;
   align-items: center;
   width: 100%;
+  background: #F6F6F6;
+  padding-top: 10px;
 }
 
 .hero .description{
@@ -134,6 +136,83 @@ margin-bottom: 10px;
 font-size: 20px;
 font-weight: 400;
 line-height: 32px;
+text-align: left;
+}
+
+.service,
+.service-2{
+  display: grid;
+  place-items: center;
+}
+
+.service{
+  margin-top: 90px;
+}
+
+.service .description,
+.service-2 .description{
+  display: grid;
+  place-items: center;
+}
+
+.service .description h1,
+.service-2 .description h1{
+  font-size: 39px;
+font-weight: 600;
+line-height: 46px;
+letter-spacing: 0px;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.service .description p,
+.service-2 .description p{
+  font-size: 25px;
+font-weight: 400;
+line-height: 46px;
+letter-spacing: 0px;
+text-align: center;
+}
+
+.service .description a,
+.service-2 .description a{
+  color: #8B4BCC;
+  margin-top: 10px;
+  font-size: 18px;
+}
+.service .description a .icon,
+.service-2 .description a .icon{
+  margin-bottom: -4px;
+  margin-left: 10px;
+}
+.service .phone{
+  /* width: 70%; */
+  height: 500px;
+  margin-top: 60px;
+}
+
+.service-2 {
+  width: 100%;
+  background: #8B4BCC;
+  color: #fff;
+  padding-top: 30px;
+}
+.service-2 .description a{
+  background: #fff;
+  padding: 13px;
+  border-radius: 5px;
+}
+
+.advert-card{
+  display: grid;
+  width: 100%;
+  padding: 70px 150px;
+}
+.advert-card h1{
+font-size: 40px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0em;
 text-align: left;
 
 }
