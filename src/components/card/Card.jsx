@@ -16,7 +16,7 @@ function Card({title, text, visibility}) {
                 </p>
 
                 <a href="#" className={visibility}>
-                    Explore Paylony Agent Banking<FaArrowRight className='icon'/>
+                    Contact Us Now<FaArrowRight className='icon'/>
                     </a>
             </div>
 

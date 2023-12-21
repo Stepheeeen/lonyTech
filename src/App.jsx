@@ -14,6 +14,7 @@ import CardItem from './components/card/CardItem.jsx'
 import CardItemAlt from './components/card/CardItemAlt.jsx'
 import ClientCard from './components/card/ClientCard.jsx'
 import Client from './components/Client.jsx'
+import Footer from './components/Footer.jsx'
 
 
 function App() {
@@ -70,7 +71,7 @@ function App() {
 
         <Card title='We are here for you!' text='Talk to us now and let’s build for you' />
 
-        
+        <Footer />
       </main>
     </>
   )
