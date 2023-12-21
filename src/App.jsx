@@ -5,6 +5,7 @@ import individual from './assets/individuals.png'
 import businesses from './assets/businesses.png'
 import MFB from './assets/MFBs.png'
 import startup from './assets/startups.png'
+import iphone from './assets/iphone.png'
 import Hero from './components/Hero.jsx'
 import Button from './components/button/Button.jsx'
 import Marquee from 'react-fast-marquee'
@@ -60,7 +61,7 @@ function App() {
         </div>
 
         <div className='client-cont'>
-          <ClientCard />
+          <ClientCard img={iphone} />
 
           <h1>
             What our Client says about us

@@ -1,11 +1,11 @@
 import '../../App.css'
-import iphone from '../../assets/iphone.png'
+// import iphone from '../../assets/iphone.png'
 import { FaArrowRight } from "react-icons/fa6";
 
-function ClientCard() {
+function ClientCard({img}) {
     return(
         <div className='client-card'>
-            <img src={iphone} alt="iphone" />
+            <img src={img} alt="iphone" />
 
             <div className='description'>
                 <h1>
