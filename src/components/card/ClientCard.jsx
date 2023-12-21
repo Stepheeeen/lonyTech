@@ -1,5 +1,5 @@
 import '../../App.css'
-// import iphone from '../../assets/iphone.png'
+import iphone from '../../assets/iPhone-12-Pro.png'
 import { FaArrowRight } from "react-icons/fa6";
 
 function ClientCard({img}) {
